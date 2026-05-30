@@ -18,6 +18,10 @@ const App = () => {
   function Increase5(){
     setFirst(num+5)
   }
+
+  const Increase10=()=>{
+    setFirst(num+10)
+  }
   
   return (
     <div>
@@ -25,6 +29,7 @@ const App = () => {
     <button onClick={IncreaseNum}>Increase</button>
     <button onClick={DecreaseNum}>Decrease</button>
     <button onClick={Increase5}>Increase 5</button>
+    <button onClick={Increase10}>Increase 10</button>
     </div>
   )
 }
